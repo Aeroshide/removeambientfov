@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "removeambientfov",
+	"version": "${version}",
+	"name": "RemoveAmbientFOV",
+	"description": "A Simple client-side mod to remove ambient FOV changes (e.g Soul Speed, Beacon Powers)",
+	"authors": [
+		"Aeroshide"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/removeambientfov/RAF.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.aeroshide.RemoveAmbientFOV"
+		]
+	},
+	"mixins": [
+		"removeambientfov.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

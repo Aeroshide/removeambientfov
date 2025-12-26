@@ -1,0 +1,6 @@
+{
+  "options.accessibility.removeBeacon": "Beacon FOV Effects",
+  "options.accessibility.removeSoulSpeed": "Soul Speed FOV Effects",
+  "options.accessibility.removeBeacon.description": "Toggles Beacon FOV Changes",
+  "options.accessibility.removeSoulSpeed.description": "Toggles Soul Speed FOV Changes"
+}
