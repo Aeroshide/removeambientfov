@@ -23,8 +23,9 @@
 		"removeambientfov.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
-		"java": ">=21"
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=${minecraft_version}",
+		"rose_bush": ">=${roselib_version}",
+		"java": ">=${java_version}"
 	}
 }

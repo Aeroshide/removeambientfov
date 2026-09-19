@@ -1,5 +1,6 @@
 package com.aeroshide;
 
+import com.aeroshide.config.RemoveAmbientFOVConfigRegistrar;
 import com.aeroshide.rose_bush.config.Config;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
@@ -49,6 +50,8 @@ public class RemoveAmbientFOV implements ClientModInitializer {
 		}
 		beaconEffects = ((boolean) config.getOption("beaconEffects"));
 		soulSpeedEffects = ((boolean) config.getOption("soulSpeedEffects"));
+
+		RemoveAmbientFOVConfigRegistrar.register();
 
 	}
 }
